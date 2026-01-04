@@ -1,0 +1,7 @@
+curl -X POST https://api.clickup.com/api/v2/team/9014735904/webhook \
+  -H "Authorization: pk_218630266_OGKTC3Q4E0XS6VI8SAAJMVEAYA741IQ7" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "endpoint": "https://su-semitropical-notionally.ngrok-free.dev/clickup-webhook",
+    "events": ["taskAssigneeUpdated"]
+  }'
