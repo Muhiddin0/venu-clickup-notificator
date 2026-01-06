@@ -44,99 +44,22 @@ def format_assignees(assignees: List[Dict[str, Any]]) -> str:
     return ", ".join(names) if names else "Noma'lum"
 
 
-async def find_member_task_by_assignee_id(
-    list_name: str,
-    assignee_id: str,
-) -> Optional[Dict[str, Any]]:
+async def find_member_task_by_assignee_id() -> List[Dict[str, Any]]:
     """
-    Find a task representing a member in a given list by ClickUp assignee ID.
-
-    Strategy:
-    - Query tasks for the team filtered by `assignees` (ClickUp user id).
-    - Page through results and try to find a task where the task's list name
-      matches `list_name` (case-insensitive).
-    - As a fallback, check a few likely custom field names for a match.
-
+    Find all tasks from the specified list.
+    
+    Args:
+        list_name: Name of the list to search for
+        assignee_id: Assignee ID (currently not used, returns all tasks)
+        
     Returns:
-        The matching task dict, or None if not found.
+        List of all tasks from the specified list
     """
-    clickup_client = get_clickup_client()
     settings = get_settings()
+    clickup_client = get_clickup_client()
+    tasks = await clickup_client.tasks.get_tasks(list_id='901413862325')
 
-    try:
-        team_id = int(settings.TEAM_ID)
-    except Exception:
-        logger.error("❌ Invalid TEAM_ID in settings, cannot search tasks")
-        return None
-
-    page = 0
-    max_pages = 10  # safety to avoid infinite paging
-
-    while page < max_pages:
-        try:
-            resp = await clickup_client.tasks.get_tasks(
-                team_id=team_id, assignees=[assignee_id], page=page
-            )
-        except Exception as exc:
-            logger.error(
-                f"❌ Failed to fetch tasks for assignee {assignee_id}: {exc}",
-                exc_info=True,
-            )
-            return None
-
-        # Normalize response to a task list
-        tasks = None
-        if isinstance(resp, dict):
-            tasks = resp.get("tasks")
-        elif isinstance(resp, list):
-            tasks = resp
-
-        if not tasks:
-            break
-
-        for task in tasks:
-            # Match by list name first (preferred approach)
-            list_info = task.get("list", {}) or {}
-            list_name_from_task = (list_info.get("name") or "").strip()
-
-            if list_name_from_task and list_name_from_task.lower() == list_name.lower():
-                logger.debug(
-                    f"Found member task {task.get('id')} in list {list_name_from_task} for assignee {assignee_id}"
-                )
-                return task
-
-            if list_name.lower() in list_name_from_task.lower():
-                return task
-
-            # Fallback: check common custom field names that might store the assignee id
-            for candidate in ("assignee_id", "user_id", "member_id", "clickup_id"):
-                cf_val = get_custom_field_value(task, candidate)
-                if cf_val is None:
-                    continue
-                # Extract simple string/int representations
-                try:
-                    if isinstance(cf_val, list) and cf_val:
-                        cf_str = str(cf_val[0])
-                    elif isinstance(cf_val, dict):
-                        cf_str = str(cf_val.get("id") or list(cf_val.values())[0])
-                    else:
-                        cf_str = str(cf_val)
-                except Exception:
-                    cf_str = str(cf_val)
-
-                if str(assignee_id) == cf_str:
-                    logger.debug(
-                        f"Found member task {task.get('id')} by custom field {candidate} for assignee {assignee_id}"
-                    )
-                    return task
-
-        page += 1
-
-    logger.info(
-        f"⚠️ No member task found for assignee {assignee_id} in list {list_name}"
-    )
-    return None
-
+    return tasks.get("tasks", [])
 
 @dispatcher.on("taskAssigneeUpdated")
 async def notify_admin_on_assignee_change(event: WebhookEvent) -> None:
@@ -244,23 +167,28 @@ async def notify_admin_on_assignee_change(event: WebhookEvent) -> None:
             f"🔍 Searching for member with assignee_id: {assignee_id} (Name: {assignee_name})"
         )
 
-        # Find the member's task in "stuffs-extra-datas" list
-        member_task = await find_member_task_by_assignee_id(
-            list_name="stuffs-extra-datas", assignee_id=str(assignee_id)
-        )
+        # Find all tasks in "stuffs-extra-datas" list
+        all_tasks = await find_member_task_by_assignee_id()
 
-        if not member_task:
-            logger.warning(f"⚠️ Member task not found for assignee_id: {assignee_id}")
+
+        if not all_tasks:
+            logger.warning(f"⚠️ No tasks found in 'stuffs-extra-datas' list")
             continue
 
-        # Get telegram_id from the member task
-        telegram_id = get_custom_field_value(member_task, "telegram_id")
-
-        if not telegram_id:
-            logger.warning(
-                f"⚠️ Telegram ID not found for member with assignee_id: {assignee_id}"
-            )
-            continue
+        for task in all_tasks:
+            for custom_field in task['custom_fields']:
+                if custom_field['name'] == 'assignee_id':
+                    print(custom_field)
+                    task_assignee_id = custom_field['value']
+                    break
+            
+            if str(task_assignee_id) == str(assignee_id):
+                for custom_field in task['custom_fields']:
+                    if custom_field['name'] == 'telegram_id':
+                        telegram_id = custom_field['value']
+                        break
+                break
+            
 
         # Convert telegram_id to int if it's a string number
         try:

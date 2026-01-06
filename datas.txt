@@ -1,0 +1,1116 @@
+[
+   {
+      "id":"86b81pnn4",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Muhiddin Kabraliev",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484563.00000000000000000000000000000000",
+      "date_created":"1767709881202",
+      "date_updated":"1767709927684",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 90 565 02 13",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "value":"1768258800000",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "value":"158617637",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "value":"5884447415",
+            "value_richtext":"",
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81pnn4",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   },
+   {
+      "id":"86b81hhya",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Habibullo",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484558.00000000000000000000000000000000",
+      "date_created":"1767679021267",
+      "date_updated":"1767679690502",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 95 000 57 42",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81hhya",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   },
+   {
+      "id":"86b81hhhh",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Dilshod Toxirov",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484557.00000000000000000000000000000000",
+      "date_created":"1767678914275",
+      "date_updated":"1767679309745",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 93 399 39 00",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81hhhh",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   },
+   {
+      "id":"86b81hhdf",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Murod Abdujamilov",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484556.00000000000000000000000000000000",
+      "date_created":"1767678888723",
+      "date_updated":"1767679177244",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 94 929 96 69",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81hhdf",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   },
+   {
+      "id":"86b81hhch",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Ziyoda Mirtursunova",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484555.00000000000000000000000000000000",
+      "date_created":"1767678876756",
+      "date_updated":"1767706242045",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 88 018 30 01",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "value":"1138575600000",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "value":"88366413",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "value":"  8393826511",
+            "value_richtext":"",
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81hhch",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   },
+   {
+      "id":"86b81hh17",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Sumayya",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484554.00000000000000000000000000000000",
+      "date_created":"1767678563613",
+      "date_updated":"1767706203677",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 93 826 46 11",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "value":"988153200000",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "value":"5026267926",
+            "value_richtext":"",
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81hh17",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   },
+   {
+      "id":"86b81hgyx",
+      "custom_id":"None",
+      "custom_item_id":0,
+      "name":"Alisher Umarov",
+      "text_content":"",
+      "description":"",
+      "status":{
+         "status":"to do",
+         "id":"p90144415570_Ykdizp6m",
+         "color":"#87909e",
+         "type":"open",
+         "orderindex":0
+      },
+      "orderindex":"120484553.00000000000000000000000000000000",
+      "date_created":"1767678443403",
+      "date_updated":"1767678787324",
+      "date_closed":"None",
+      "date_done":"None",
+      "archived":false,
+      "creator":{
+         "id":218630266,
+         "username":"Venu Marketplace",
+         "color":"#595d66",
+         "email":"venumarketpleace@gmail.com",
+         "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+      },
+      "assignees":[
+         
+      ],
+      "group_assignees":[
+         
+      ],
+      "watchers":[
+         {
+            "id":218630266,
+            "username":"Venu Marketplace",
+            "color":"#595d66",
+            "initials":"VM",
+            "email":"venumarketpleace@gmail.com",
+            "profilePicture":"https://attachments.clickup.com/profilePictures/218630266_KMg.jpg"
+         }
+      ],
+      "checklists":[
+         
+      ],
+      "tags":[
+         
+      ],
+      "parent":"None",
+      "top_level_parent":"None",
+      "priority":"None",
+      "due_date":"None",
+      "start_date":"None",
+      "points":"None",
+      "time_estimate":"None",
+      "custom_fields":[
+         {
+            "id":"8e223d9e-ab6e-4bc0-bbdc-70fa0d2af8c7",
+            "name":"Tefon raqami",
+            "type":"phone",
+            "type_config":{
+               
+            },
+            "date_created":"1766817683276",
+            "hide_from_guests":false,
+            "value":"+998 91 774 15 74",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"71137bbf-714b-4a4c-baea-17abeadd395d",
+            "name":"Tug'ilgan sanasi",
+            "type":"date",
+            "type_config":{
+               
+            },
+            "date_created":"1766817751510",
+            "hide_from_guests":false,
+            "value":"1100127600000",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"ee805603-1dc3-476a-849e-7113962a374f",
+            "name":"assignee_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766988559283",
+            "hide_from_guests":false,
+            "value":"188552227",
+            "value_richtext":"",
+            "required":false
+         },
+         {
+            "id":"3b719a21-df0f-4bf8-b64a-08a4940fb0a4",
+            "name":"telegram_id",
+            "type":"short_text",
+            "type_config":{
+               
+            },
+            "date_created":"1766817716942",
+            "hide_from_guests":false,
+            "value":"1357885397",
+            "value_richtext":"",
+            "required":false
+         }
+      ],
+      "dependencies":[
+         
+      ],
+      "linked_tasks":[
+         
+      ],
+      "locations":[
+         
+      ],
+      "team_id":"9014735904",
+      "url":"https://app.clickup.com/t/86b81hgyx",
+      "sharing":{
+         "public":false,
+         "public_share_expires_on":"None",
+         "public_fields":[
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+         ],
+         "token":"None",
+         "seo_optimized":false
+      },
+      "permission_level":"create",
+      "list":{
+         "id":"901413862325",
+         "name":"stuffs-extra-datas",
+         "access":true
+      },
+      "project":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "folder":{
+         "id":"90147443239",
+         "name":"hidden",
+         "hidden":true,
+         "access":true
+      },
+      "space":{
+         "id":"90144415570"
+      }
+   }
+]
