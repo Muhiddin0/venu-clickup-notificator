@@ -170,25 +170,30 @@ async def notify_admin_on_assignee_change(event: WebhookEvent) -> None:
         # Find all tasks in "stuffs-extra-datas" list
         all_tasks = await find_member_task_by_assignee_id()
 
-
         if not all_tasks:
             logger.warning(f"⚠️ No tasks found in 'stuffs-extra-datas' list")
             continue
 
+        # Search for matching task with assignee_id
+        telegram_id = None
         for task in all_tasks:
-            for custom_field in task['custom_fields']:
-                if custom_field['name'] == 'assignee_id':
-                    print(custom_field)
-                    task_assignee_id = custom_field['value']
-                    break
+            task_assignee_id = get_custom_field_value(task, 'assignee_id')
+            
+            # Skip if assignee_id is not found or empty
+            if task_assignee_id is None:
+                continue
             
             if str(task_assignee_id) == str(assignee_id):
-                for custom_field in task['custom_fields']:
-                    if custom_field['name'] == 'telegram_id':
-                        telegram_id = custom_field['value']
-                        break
-                break
-            
+                telegram_id = get_custom_field_value(task, 'telegram_id')
+                if telegram_id:
+                    break
+
+        # Check if telegram_id was found
+        if not telegram_id:
+            logger.warning(
+                f"⚠️ Telegram ID not found for assignee_id: {assignee_id} (Name: {assignee_name})"
+            )
+            continue
 
         # Convert telegram_id to int if it's a string number
         try:
